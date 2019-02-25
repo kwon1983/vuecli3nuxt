@@ -1,0 +1,49 @@
+{
+    "name": "vuecli3",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "test:e2e": "vue-cli-service test:e2e",
+        "test:unit": "vue-cli-service test:unit",
+        "dev": "cross-env NODE_ENV=DEV nodemon src/server/index.js --watch src/server",
+        "insp": "cross-env NODE_ENV=DEV node-inspect src/server/index.js"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/pwa": "^3.0.0-beta.6",
+        "aes-js": "^3.1.2",
+        "axios": "^0.18.0",
+        "consola": "^2.4.0",
+        "cookie-parser": "^1.4.3",
+        "debug": "^4.1.1",
+        "express": "^4.16.4",
+        "morgan": "^1.9.1",
+        "nuxt": "^2.4.3",
+        "object-extend": "^0.5.0",
+        "register-service-worker": "^1.5.2",
+        "sha.js": "^2.4.11",
+        "vue": "^2.5.22",
+        "vue-notifications": "^0.9.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.4.0",
+        "@vue/cli-plugin-e2e-nightwatch": "^3.4.0",
+        "@vue/cli-plugin-eslint": "^3.4.0",
+        "@vue/cli-plugin-pwa": "^3.4.0",
+        "@vue/cli-plugin-unit-mocha": "^3.4.0",
+        "@vue/cli-service": "^3.4.0",
+        "@vue/eslint-config-airbnb": "^4.0.0",
+        "@vue/test-utils": "^1.0.0-beta.20",
+        "babel-eslint": "^10.0.1",
+        "chai": "^4.1.2",
+        "eslint": "^5.8.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "node-sass": "^4.9.0",
+        "nodemon": "^1.18.10",
+        "sass-loader": "^7.1.0",
+        "vue-template-compiler": "^2.5.21"
+    }
+}
